@@ -1,0 +1,31 @@
+<div class="col-md-offset-2 mb-4 edit-profile-wrapper">
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div class="profile-form-wrap">
+        <%= form_with scope: resource, as: resource_name, url: registration_path(resource_name), local: true, method: :patch do |f| %>
+          <div class="form-group">
+            <%= f.label :name, "Name" %>
+            <%= f.text_field :name, autofocus: true, class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :email, "E-mail" %>
+            <%= f.email_field :email, autofocus: true, class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :password, "password" %>
+            <%= f.password_field :password, autofocus: "off", class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :password_confirmation, "password again" %>
+            <%= f.password_field :password_confirmation, autofocus: "off", class: "form-control" %>
+          </div>
+
+          <%= f.submit "SUBMIT", class: "btn btn-primary" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

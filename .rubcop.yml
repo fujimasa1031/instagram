@@ -1,0 +1,15 @@
+# disable to check whether method name use camel case.
+MethodName:
+  Enabled: false
+
+# disable to check whether symbol name use camel case.
+SymbolName:
+  Enabled: false
+
+# disable to check whether only ascii symbols in comments.
+AsciiComments:
+  Enabled: false
+
+# disable to check whether lines is less than 80 characters.
+LineLength:
+  Enabled: false

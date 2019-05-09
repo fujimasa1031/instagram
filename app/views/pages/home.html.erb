@@ -1,0 +1,6 @@
+<% if user_signed_in? %>
+  <%= link_to "SIGNOUT", destroy_user_session_path, method: :delete %>
+<% end %>
+
+<p>This is top page !! </p>
+<%= link_to " BUTTON", "#", class: "btn btn-primary" %>
