@@ -40,7 +40,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # bootstrap
 gem 'bootstrap', '~> 4.3.1'
-gem 'bootstrap-sass'
+gem "bootstrap-sass", ">= 3.4.1"
 gem 'jquery-rails'
 
 # User login/registration
