@@ -29,3 +29,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# 開発環境下におけるuploadファイルはGithubに送らない
+/public/uploadeds/photo/
